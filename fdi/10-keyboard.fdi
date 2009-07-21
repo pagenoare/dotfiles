@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deviceinfo version="0.2">
+    <device>
+        <match key="info.capabilities" contains="input.keys">
+            <!--
+            <merge key="input.x11_options.XkbVariant" type="string">intl</merge>
+            <merge key="input.xkb.variant" type="string">intl</merge>
+            -->
+            <append key='input.x11_options.XkbOptions' type='strlist'>grp:toggle,grp_led:scroll</append>
+            <append key='input.x11_options.XkbOptions' type='strlist'>lv3:alt_switch</append>
+            <merge key='input.x11_options.XkbOptions' type='strlist'>grpwin:swap_grp_rwin</merge>
+
+        </match>
+    </device>
+</deviceinfo>

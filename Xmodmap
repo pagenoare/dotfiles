@@ -1,0 +1,4 @@
+keycode 134 = ISO_Level3_Shift NoSymbol ISO_Level3_Shift NoSymbol ISO_Level3_Shift
+keycode 104 = Insert Insert Insert Insert Insert
+keycode 232 = XF86KbdBrightnessDown XF86KbdBrightnessDown XF86KbdBrightnessDown XF86KbdBrightnessDown
+keycode 233 = XF86KbdBrightnessUp XF86KbdBrightnessUp XF86KbdBrightnessUp XF86KbdBrightnessUp
