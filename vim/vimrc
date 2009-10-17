@@ -16,9 +16,10 @@ set ruler
 set showmode
 set shiftwidth=4
 set tabstop=4
+set softtabstop=4
+set expandtab
 set autoindent
 set autowrite
-set mouse=a
 set showmatch
 set number
 set enc=utf8
@@ -39,11 +40,11 @@ filetype indent on
 
 syntax on
 
-set textwidth=80
-
 nmap     <C-t>          :tabnew<CR>
 nmap     <C-c>          :tabclose<CR>
 map     <C-h>       :tabprev<CR>
 imap     <C-h>       <Esc>:tabprev<CR><insert>
 map     <C-l>      :tabnext<CR>
 imap     <C-l>      <Esc>:tabnext<CR><insert>
+
+

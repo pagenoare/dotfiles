@@ -25,7 +25,7 @@ hi StatusLineNC ctermfg=Black       ctermbg=Blue        cterm=Bold
 hi StatusLine   ctermfg=Black       ctermbg=Blue        cterm=None
 hi VertSplit    ctermfg=Blue        ctermbg=Blue        cterm=Bold
 hi DiffText	    ctermfg=Red         ctermbg=White       cterm=None
-hi Constant	    ctermfg=Yellow      ctermbg=Black       cterm=Italic
+hi Constant	    ctermfg=Yellow      ctermbg=Black       cterm=Bold
 hi Todo         ctermfg=Black       ctermbg=Yellow      cterm=Bold
 hi Identifier	ctermfg=DarkBlue    ctermbg=Black       cterm=Bold
 hi Error	    ctermfg=Black       ctermbg=Red         cterm=Bold
