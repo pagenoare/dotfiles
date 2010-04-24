@@ -6,7 +6,7 @@ Xft.antialias:		true
 Xft.hinting:		true
 Xft.hintstyle:		hintfull
 Xft.rgba:            true
-Xft.dpi:            100
+Xft.dpi:            96
 
 
 Xcursor.theme:		aero
@@ -63,11 +63,10 @@ urxvt*geometry:			160x40
 
 !!----------------------------
 !! transparency
-
-!urxvt*fading:			25%
-!urxvt*transparent:      white
-!urxvt*inheritPixmap:    true
-!urxvt*tintColor:		#4D4D4D
+urxvt*fading:			10%
+urxvt*transparent:      white
+urxvt*inheritPixmap:    true
+urxvt*tintColor:		#4D4D4D
 
 !!----------------------------
 !! color settings
@@ -86,21 +85,21 @@ urxvt*foreground:		#D3D7CF
 urxvt*background:		rgba:0000/0000/0000/cccc
 !! white background
 !urxvt*background:		rgba:cccc/cccc/cccc/ccdd
-urxvt*depth:			32
-
+!urxvt*depth:			32
 !!----------------------------
 !! font setting
 
-!urxvt*font:			xft:Liberation Mono:pixelsize=10:antialias=true
-!urxvt*boldFont:			xft:Liberation Mono:pixelsize=10:antialias=true:bold
+!URxvt.font: xft:DejaVu Sans Mono:pixelsize=11
+!urxvt*font:			xft:Monaco:pixelsize=11:antialias=true
+urxvt*font:			xft:Liberation Mono:pixelsize=11:antialias=true
 
-urxvt*font:			xft:Monaco:pixelsize=11
+!urxvt*font:			xft:Monaco:pixelsize=10
 
 !!----------------------------
 !! extensions
 
 urxvt*perl-ext-common: default,selection-autotransform,matcher
-urxvt*urlLauncher: firefox
+urxvt*urlLauncher: chromium
 urxvt*matcher.button: 1
 
 !!-------------------------------------
