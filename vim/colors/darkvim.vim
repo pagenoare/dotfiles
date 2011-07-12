@@ -14,12 +14,12 @@ hi Cursor       ctermfg=Gray        ctermbg=Green       cterm=None
 hi SpecialKey	ctermfg=Green       ctermbg=Black       cterm=None
 hi Directory	ctermfg=Green       ctermbg=Black       cterm=None
 hi ErrorMsg     ctermfg=DarkRed     ctermbg=White       cterm=None
-hi PreProc	    ctermfg=DarkGray    ctermbg=Black       cterm=Bold
+hi PreProc	    ctermfg=Yellow      ctermbg=Black       cterm=Bold
 hi Search	    ctermfg=Black       ctermbg=Yellow      cterm=Bold
 hi Type		    ctermfg=Blue        ctermbg=Black       cterm=Bold
 hi Statement	ctermfg=Green       ctermbg=Black       cterm=Bold
 hi Comment	    ctermfg=DarkGray    ctermbg=Black       cterm=Bold
-hi LineNr	    ctermfg=DarkGray    ctermbg=Black       cterm=Bold
+hi LineNr	    ctermfg=Blue        ctermbg=Black       cterm=Bold
 hi NonText	    ctermfg=Blue        ctermbg=Black       cterm=Bold
 hi StatusLineNC ctermfg=Black       ctermbg=Blue        cterm=Bold
 hi StatusLine   ctermfg=Black       ctermbg=Blue        cterm=None
@@ -34,7 +34,7 @@ hi FoldColumn	ctermfg=DarkGray    ctermbg=Black       cterm=Bold
 hi Ignore       ctermfg=Yellow      ctermbg=Black       cterm=Bold
 hi Underline    ctermfg=DarkGray    ctermbg=Black       cterm=Italic
 
-hi Pmenu        ctermfg=White       ctermbg=DarkGray    cterm=None
+hi Pmenu        ctermfg=Yellow       ctermbg=DarkGray    cterm=None
 hi PmenuSel     ctermfg=Black       ctermbg=Gray        cterm=Bold
 hi PmenuSbar    ctermfg=DarkGray    ctermbg=DarkGray    cterm=None
 hi PmenuThumb   ctermfg=Gray        ctermbg=Gray        cterm=None

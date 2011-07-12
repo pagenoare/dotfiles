@@ -4,7 +4,8 @@ if has("gui_running")
     "Fullscreen"
     set guifont=Bitstream\ Vera\ Sans\ Mono\ 9
     set guioptions=-L
-    colorscheme ir_black
+    colorscheme wombat
+    set lines=100 columns=190
 endif
 
 " === END GVIM === "
