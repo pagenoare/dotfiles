@@ -12,7 +12,7 @@ endif
 let colors_name = "wombat"
 
 
-" Vim >= 7.0 specific colors
+" Vim >= 8.0 specific colors
 if version >= 700
   hi CursorLine guibg=#2d2d2d
   hi CursorColumn guibg=#2d2d2d
@@ -38,7 +38,7 @@ hi SpecialKey	guifg=#808080 guibg=#343434 gui=none
 hi Comment 		guifg=#99968b gui=italic
 hi Todo 		guifg=#8f8f8f gui=italic
 hi Constant 	guifg=#e5786d gui=none
-hi String 		guifg=#95e454 gui=italic
+hi String 		guifg=#FFFF88 gui=italic
 hi Identifier 	guifg=#cae682 gui=none
 hi Function 	guifg=#cae682 gui=none
 hi Type 		guifg=#cae682 gui=none

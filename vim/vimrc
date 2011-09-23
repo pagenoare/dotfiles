@@ -5,7 +5,12 @@ if has("gui_running")
     set guifont=Bitstream\ Vera\ Sans\ Mono\ 9
     set guioptions=-L
     colorscheme wombat
-    set lines=100 columns=190
+    set guioptions-=l
+    set guioptions-=L
+    set guioptions-=m
+    set guioptions-=T
+    set guioptions-=R
+    set guioptions-=r
 endif
 
 " === END GVIM === "
@@ -26,7 +31,9 @@ set number
 set enc=utf8
 set fileencodings=utf-8,latin2
 set nobackup
+set noswapfile
 set nolist
+set colorcolumn=80
 
 " === autoclose === "
 "inoremap [ []<left>
@@ -43,9 +50,10 @@ syntax on
 
 nmap     <C-t>          :tabnew<CR>
 nmap     <C-c>          :tabclose<CR>
-map     <C-h>       :tabprev<CR>
-imap     <C-h>       <Esc>:tabprev<CR><insert>
-map     <C-l>      :tabnext<CR>
-imap     <C-l>      <Esc>:tabnext<CR><insert>
-
-
+nmap <C-S-tab> :tabprevious<CR>
+nmap <C-tab> :tabnext<CR>
+map <C-S-tab> :tabprevious<CR>
+map <C-tab> :tabnext<CR>
+imap <C-S-tab> <Esc>:tabprevious<CR>i
+imap <C-tab> <Esc>:tabnext<CR>i
+nmap    <C-i> :! python %<CR>
