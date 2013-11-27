@@ -1,108 +1,46 @@
-!!----------------------------
-!! Xorg configuration
-!!----------------------------
+urxvt.perl-ext-common:              default,clipboard,url-select,keyboard-select
+urxvt.matcher.button:               1
+urxvt.keysym.M-u:               perl:url-select:select_next
+urxvt.keysym.M-Escape:              perl:keyboard-select:activate
+urxvt.keysym.M-s:               perl:keyboard-select:search
+urxvt.transparent:              false
+!urxvt.font:                 xft:Terminus:antialias=true:hinting=true:size=10
+urxvt*font:                        xft:Monospace:pixelsize=12:antialias=true
+urxvt.boldFont:                                 xft:Monospace:antialias=true:hinting=true:size=10
+!urxvt.font:                                    -*-terminus-*-*-*-*-12-*-*-*-*-*-*-u
+!urxvt.boldFont:                                -*-terminus-*-*-*-*-12-*-*-*-*-*-*-u
+urxvt.termName:                 rxvt
+urxvt.iso14755:                                 false
+urxvt.cursorBlink:              true
+urxvt.url-select.launcher:          firefox
+urxvt.url-select.underline:         true
+!urxvt.depth:                   32
+urxvt.allow_bold:               false
+urxvt.visualBell:               true
+urxvt.cutchars:                                 "\\ `\"\'()*;<>[]{|}&,=?@^\:"
+urxvt.iconFile:                 /usr/share/icons/Faenza/apps/96/terminal.png
+urxvt.scrollBar:                false
+Xft.dpi:                                        96
+Xft.autohint:                                   0
+Xft.lcdfilter:                                  lcddefault
+Xft.hintstyle:                                  hintfull
+Xft.hinting:                                    1
+Xft.antialias:                                  1
+Xft.rgba:                                       rgb
+urxvt.geometry:                 90x23
+urxvt.shading:                  0
+urxvt.fading:                   0
+urxvt.inheritPixmap:                False
+urxvt.letterSpace:                              0
+URxvt.tabbar-fg:                                7
+URxvt.tabbar-bg:                                0
+URxvt.tab-fg:                                   0
+URxvt.tab-bg:                                   2
+URxvt.title-fg:                                 2
+URxvt.title-bg:                                 0
 
-Xft.antialias:		true
-Xft.hinting:		true
-Xft.hintstyle:		hintfull
-Xft.rgba:            true
-Xft.dpi:            96
+# include                                       "/home/kacper/.colors/gjm"
 
-
-Xcursor.theme:		aero
-Xcursor.theme_core:	true
-Xcursor.size:		24
-
-!!----------------------------
-!! colours
-
-! Black
-*color0:  #2E3436
-*color8:  #555753
-! Red
-*color1:  #CC0000
-*color9:  #EF2929
-! Green
-*color2:  #4E9A06
-*color10: #8AE234
-! Yellow
-*color3:  #C4A000
-*color11: #FCE94F
-! Blue
-*color4:  #3465A4
-*color12: #729FCF
-! Purple
-*color5:  #75507B
-*color13: #AD7FA8
-! Cyan
-*color6:  #06989A
-*color14: #34E2E2
-! White
-*color7:  #D3D7CF
-*color15: #EEEEEC
-
-!!----------------------------
-!! options (rxvt-unicode)
-!!----------------------------
-
-urxvt*termName:			rxvt
-urxvt*imLocale:			pl_PL.UTF-8
-
-urxvt*scrollBar:		false
-urxvt*scrollStyle:		plain
-urxvt*saveLines:		5000
-
-urxvt*secondaryScroll:		true
-
-urxvt*cursorBlink:		false
-urxvt*geometry:			160x40
-
-!urxvt*eightBitInput:		true
-
-!urxvt*borderLess:		 true
-
-!!----------------------------
-!! transparency
-urxvt*fading:			10%
-urxvt*transparent:      white
-urxvt*inheritPixmap:    true
-urxvt*tintColor:		#4D4D4D
-
-!!----------------------------
-!! color settings
-
-!urxvt*cursorColor:		#AD7FA8
-urxvt*cursorColor:		#FFFFFF
-urxvt*throughColor:		#8080f0
-urxvt*highlightColor:		#555753
-urxvt*dynamicColors:  		on
-
-!urxvt*foreground:		#7B7B7B
-urxvt*foreground:		#D3D7CF
-
-!! if you use compiz or xcompmgr give true transparency
-!! black background
-urxvt*background:		rgba:0000/0000/0000/cccc
-!! white background
-!urxvt*background:		rgba:cccc/cccc/cccc/ccdd
-!urxvt*depth:			32
-!!----------------------------
-!! font setting
-
-!URxvt.font: xft:DejaVu Sans Mono:pixelsize=11
-!urxvt*font:			xft:Monaco:pixelsize=11:antialias=true
-urxvt*font:			xft:Liberation Mono:pixelsize=11:antialias=true
-
-!urxvt*font:			xft:Monaco:pixelsize=10
-
-!!----------------------------
-!! extensions
-
-urxvt*perl-ext-common: default,selection-autotransform,matcher
-urxvt*urlLauncher: chromium
-urxvt*matcher.button: 1
-
-!!-------------------------------------
-!! end of options (rxvt-unicode)
-!!-------------------------------------
-
+*cursorColor:   #cee318
+*background:    #1c1c1c
+*foreground:    #c5c5c5
