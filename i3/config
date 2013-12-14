@@ -165,5 +165,6 @@ bindsym $mod+Shift+6 move container to workspace 6:skype
 exec setxkbmap pl
 exec feh --bg-scale /home/kacper/images/wallpapers/sunset_wide.png
 exec xrdb -merge /home/kacper/.Xresources
+exec sleep 0.5 && xrandr --output HDMI1 --mode 1920x1200 --right-of HDMI2
 # End of Autostart
 
