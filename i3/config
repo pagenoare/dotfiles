@@ -27,7 +27,7 @@ floating_modifier $mod
 
 
 # start a terminal
-bindsym $mod+Return exec gnome-terminal 
+bindsym $mod+Return exec urxvt 
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -160,4 +160,10 @@ bindsym $mod+Shift+3 move container to workspace 3:editor
 bindsym $mod+Shift+4 move container to workspace 4:im
 bindsym $mod+Shift+5 move container to workspace 5:terminal
 bindsym $mod+Shift+6 move container to workspace 6:skype
+
+# Autostart:
+exec setxkbmap pl
+exec feh --bg-scale /home/kacper/images/wallpapers/sunset_wide.png
+exec xrdb -merge /home/kacper/.Xresources
+# End of Autostart
 
